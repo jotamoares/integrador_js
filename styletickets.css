@@ -1,0 +1,366 @@
+/*estilos del título categoría"
+.categoria {
+text-align: center;
+
+}
+
+
+*/
+
+/* Color de fondo gris más claro que el fondo */
+.navbar-nav .nav-link,
+.navbar-brand .conf-bs-as {
+  color: #ccc;
+  /* Color de texto gris claro */
+  transition: color 0.3s ease;
+  /* Transición de color al hacer hover */
+}
+
+
+/* Color más claro en hover para todos los enlaces */
+.navbar-nav .nav-link:hover,
+.navbar-brand .conf-bs-as:hover {
+  color: #eee;
+  /* Color de texto gris aún más claro en hover */
+  width: 100%;
+}
+
+/* link comprar tickets de la barra de navegación*/
+.navbar-nav .custom-color .nav-link {
+  color: rgb(19, 155, 19);
+  transition: color 0.3s ease;
+
+}
+
+/* Cambiar a negritas en hover para "Comprar tickets" */
+.navbar-nav .custom-color .nav-link:hover {
+  font-weight: bold;
+
+}
+
+.header-background::before {
+  margin-left: 0px;
+  margin-right: 0px;
+  content: "";
+  /* background-image: url('images/hawaii.jpg');*/
+  /* Ruta de imagen de fondo */
+  filter: brightness(60%);
+  /* Modifica el brillo de la imagen de fondo */
+  background-size: cover;
+  /* Cubre todo el elemento con la imagen */
+  background-repeat: no-repeat;
+  /* Evita que la imagen se repita */
+  background-position: center top;
+  /* Centra la imagen verticalmente y la alinea con la parte superior */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  /* Coloca esta caja detrás de los otros elementos */
+  background-size: auto
+}
+
+.header-content {
+  position: relative;
+  z-index: 1;
+  /* Asegura que el contenido esté encima de la imagen de fondo */
+}
+
+.col-6 {
+  margin-top: 100px;
+  /* Cambia el margen exterior de las columnas */
+  padding: 0px;
+  /* Cambia el espacio interno de las columnas */
+
+}
+
+.card-transparent {
+  background-color: transparent;
+  border: none;
+}
+
+.card-text-white {
+  color: white;
+}
+
+/* borde de la tarjeta en index */
+.card {
+  padding-top: 20px;
+  margin-top: 30px;
+  text-align: right;
+  border: color(srgb rgb(185, 185, 185));
+  box-shadow: none;
+
+}
+
+
+h2 {
+  text-align: right;
+}
+
+.container-oradores {
+  margin-top: 15%;
+  margin-bottom: 10px;
+}
+
+.categoria {
+  margin-top: 7px;
+  text-align: center;
+}
+
+.descuento {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.porcentaje {
+  margin-top: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.presentar {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.conf-bs-as {
+  margin-top: 5px;
+  text-align: right;
+}
+
+h4 {
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+}
+
+.btn {
+  border-radius: 3px;
+}
+
+.btn-quiero {
+  color: #bbbbbb;
+}
+
+.btn-quiero:hover {
+  font-weight: bold;
+  background-color: #999999;
+  border: none;
+}
+
+.btn-tickets {
+  color: #eee;
+  background-color: #437943;
+  border-color: #437943;
+}
+
+.btn-tickets:hover {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.container-fluid {
+  padding-left: 10%;
+  padding-right: 8%;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+.btn-custom-gray {
+  background-color: rgb(105, 105, 105);
+  margin-right: 10px;
+  /* separación entre botones */
+  border: none;
+  font-size: small;
+  font-weight: bolder;
+}
+
+.btn-custom-gray:hover {
+  background-color: black;
+}
+
+.btn-custom-red {
+  background-color: rgb(255, 0, 0);
+  border: none;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.btn-custom-orange {
+  background-color: rgb(255, 176, 30);
+  border: none;
+  margin-right: 10px;
+  font-size: small;
+  font-weight: bolder;
+  /*separación entre botones */
+}
+
+.btn-custom-orange:hover {
+  background-color: #999999;
+}
+
+.btn-custom-marine {
+  background-color: rgb(0, 195, 255);
+  border: none;
+  font-size: small;
+  font-weight: bolder;
+}
+
+/* tamaño de las tarjetas */
+.card-small {
+  max-width: 300px;
+  /* Ancho máximo*/
+}
+
+.card {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.btn-success {
+  background-color: #437943;
+  border-color: #437943;
+}
+
+.btn-success:hover {
+  font-weight: bold;
+}
+
+.zona-baja {
+  width: 50%;
+}
+
+.text-honolulu {
+  background-color: rgb(71, 71, 71);
+  color: whitesmoke;
+  padding-left: 2%;
+  padding-right: 2%;
+  align-items: left;
+
+}
+
+h2 {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.fila-margen-superior {
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+.btn-conoce {
+  color: transparent;
+  border-style: 1px;
+}
+
+.btn-conoce:hover {
+  font-weight: bold;
+}
+
+.formulario {
+  margin-top: 0px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10px;
+}
+
+.borrar_resumen {
+  margin-top: 0px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10px;
+}
+
+.tit_formulario {
+  margin-top: 15px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 1px;
+}
+
+.titulo1_venta {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.titulo2_valor {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+
+.ignite:hover {
+  color: rgb(54, 54, 54);
+  font-weight: bold;
+}
+
+.resizable {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.titulo4_formulario {
+  color: rgb(27, 27, 27);
+  font-size: 12px;
+  text-align: left;
+}
+
+.total {
+  font-size: 50px;
+  size: 100%;
+  align-items: center;
+  margin-left: 0px;
+  text-align: left;
+  border: none;
+}
+
+.btn-success {
+  color: #f8f8f8;
+  background-color: #71db71;
+  font-size: 15px;
+}
+
+.fondo {
+  margin-top: 0px;
+  background-color: rgb(25, 58, 77);
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.row.fondo a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+  width: 100%;
+}
+
+.row.fondo a:hover {
+  color: #999999;
+}
+
+.text-blue {
+  color: blue !important;
+  text-align: left;
+}
+.btn-info {
+  background-color: rgb(201, 231, 231)
+  
+}
+
+.btn-success{
+  text-align: center;
+}

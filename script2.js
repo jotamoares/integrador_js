@@ -12,9 +12,9 @@ function calcularResultado() {
       } else if (categoria === 3) { // Junior
         porcentaje = 0.85;
       } else if (categoria === 4) { // General
-        porcentaje = 1;
+        porcentaje = 1.00;
       }
-
+  
       const resultado = cantidad * 200 * porcentaje;
       document.getElementById("resultado").innerText = `Total a pagar: $ ${resultado}`;
     } else {
@@ -22,6 +22,3 @@ function calcularResultado() {
     }
   }
  
-
-
-  
